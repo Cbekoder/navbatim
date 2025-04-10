@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navbatim.uz</title>
+    <link rel="stylesheet" href="{% static 'coming_soon/style.css' %}">
+</head>
+<body>
+<div class="logo-container">
+    <img src="{% static 'img/logo.png' %}" alt="Logo" class="logo">
+</div>
+<!-- partial:index.partial.html -->
+<div class="countDown" data-date="30 Apr 2025 10:00 am">
+    <div class="item">
+        <h2 class="countDownValue">0</h2>
+        <h2>days</h2>
+    </div>
+    <div class="item">
+        <h2 class="countDownValue">0</h2>
+        <h2>hours</h2>
+    </div>
+    <div class="item">
+        <h2 class="countDownValue">0</h2>
+        <h2>minutes</h2>
+    </div>
+    <div class="item">
+        <h2 class="countDownValue">0</h2>
+        <h2>seconds</h2>
+    </div>
+</div>
+<!-- partial -->
+<script src="{% static 'coming_soon/script.js' %}"></script>
+
+</body>
+</html>
